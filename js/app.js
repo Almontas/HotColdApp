@@ -20,10 +20,11 @@ $('#guessButton').click(function () {
 userGuess = $('#userGuess').val();  //assigns inputs from the user
 userGuess = parseInt(userGuess, 10); //ensures the user variable is an integer
 var guessTry = newGame(userGuess); //passes the user variable to the function
+$("#userGuess").val('').focus(); 
 
 })
 
-function newGame(){
+function newGame(guessTry){
 
 if ((randomNumber - guessTry) == 0)
     {
