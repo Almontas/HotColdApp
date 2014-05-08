@@ -78,6 +78,8 @@ nav a {
 	color: #fff;
 }
 
+
+
 h1 {
 	font-weight: 900;
 	font-size: 3em;
@@ -221,10 +223,18 @@ h2 {
 	color: #fff;
 }
 
+
+
 .game p {
 	margin-top: 0.5em;
 	font-size: 1.8em;
 	padding-bottom: 0.5em;
+}
+
+#feedback p {
+
+	font-size: 1.1em;
+	line-height: 1.0em;
 }
 
 #count {
@@ -318,4 +328,6 @@ ul.guessBox li {
 	width: 95%;
 	margin: 0.2em;
 	color: #fff;
+	word-wrap: break-word;
+
 }
