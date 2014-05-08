@@ -33,7 +33,7 @@ if (Math.abs((randomNumber - guessTry)) == 0)
     {	
     $('#feedback p').remove();			
     $('#feedback').append('<p>' + "You Got it!!" +'</p>');
-    prompt("You got it!!");
+    alert("You got it!!");
 	counter = 0;
 	 $('#count').html(counter);
 	}
